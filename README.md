@@ -14,7 +14,7 @@ The project features a custom Python ETL pipeline, automated SEC EDGAR data extr
 
 # Dashboard Preview
 
-## 🏠 Home
+## Home
 
 ![Home](images/Home_Page_.jpg)
 
