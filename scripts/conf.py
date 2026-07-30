@@ -7,6 +7,8 @@ base_url= "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
 
 json_path= "data/raw/companyfacts.json"
 
+
+#old code left
 '''
 FLOW_METRICS = [
     "Revenues",
