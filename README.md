@@ -12,7 +12,7 @@ The project features a custom Python ETL pipeline, automated SEC EDGAR data extr
 
 ---
 
-# 📊 Dashboard Preview
+# Dashboard Preview
 
 ## 🏠 Home
 
@@ -20,25 +20,25 @@ The project features a custom Python ETL pipeline, automated SEC EDGAR data extr
 
 ---
 
-## 📈 Executive Summary
+## Executive Summary
 
 ![Executive Summary](images/Executive_Summary.jpg)
 
 ---
 
-## 💰 Financial Performance
+## Financial Performance
 
 ![Financial Performance](images/Financial_Performance.jpg)
 
 ---
 
-## 🗺 Store Analytics
+## Store Analytics
 
 ![Store Analytics](images/Store_Analytics.jpg)
 
 ---
 
-# 📌 Business Problem
+# Business Problem
 
 Walmart has consistently expanded its retail footprint while growing into one of the world's largest retailers.
 
@@ -52,7 +52,7 @@ This project investigates several business questions:
 
 ---
 
-# ⭐ Project Highlights
+# Project Highlights
 
 - Built a custom ETL pipeline using the SEC EDGAR Company Facts API
 - Automated extraction and cleaning of Walmart financial statements
@@ -63,7 +63,7 @@ This project investigates several business questions:
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 | Category | Technologies |
 |-----------|--------------|
@@ -76,7 +76,7 @@ This project investigates several business questions:
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 walmart-financial-footprint-analytics/
@@ -94,7 +94,7 @@ walmart-financial-footprint-analytics/
 
 ---
 
-# 🔄 Data Pipeline
+# Data Pipeline
 
 A custom ETL pipeline was developed to automate financial data collection and preparation rather than relying on static datasets.
 
@@ -115,12 +115,6 @@ A custom ETL pipeline was developed to automate financial data collection and pr
 - Filtered annual (`10-K`) filings
 - Removed duplicate filings while preserving the earliest reported values
 - Standardized fiscal-year reporting periods
-- Derived Total Liabilities using:
-
-```
-Liabilities = Assets − Stockholders' Equity
-```
-
 - Merged financial metrics into a unified analytical dataset
 - Integrated historical Walmart store counts
 
@@ -140,9 +134,9 @@ docs/methodology_notes.md
 
 ---
 
-# 📊 Dashboard Pages
+# Dashboard Pages
 
-## 🏠 Home
+## Home
 
 - Project overview
 - Dashboard navigation
@@ -150,7 +144,7 @@ docs/methodology_notes.md
 
 ---
 
-## 📈 Executive Summary
+## Executive Summary
 
 - Revenue KPI
 - Net Income KPI
@@ -164,7 +158,7 @@ docs/methodology_notes.md
 
 ---
 
-## 💰 Financial Performance
+## Financial Performance
 
 - Revenue vs Net Income
 - Operating Cash Flow vs Free Cash Flow
@@ -173,7 +167,7 @@ docs/methodology_notes.md
 
 ---
 
-## 🗺 Store Analytics
+## Store Analytics
 
 - Walmart Store Distribution Map
 - Top 10 States by Store Count
@@ -181,7 +175,7 @@ docs/methodology_notes.md
 
 ---
 
-# 📈 KPIs
+# KPIs
 
 The dashboard includes the following business metrics:
 
@@ -189,17 +183,17 @@ The dashboard includes the following business metrics:
 - Net Income
 - Revenue Growth %
 - Net Profit Margin
-- Return on Assets (ROA)
-- Return on Equity (ROE)
+- AVG Return on Assets (ROA)
+- AVG Return on Equity (ROE)
 - Operating Cash Flow
-- Free Cash Flow
+- AVG Free Cash Flow
 - Capital Expenditure
 - Revenue per Store
 - Store Count
 
 ---
 
-# 💡 Key Insights
+# Key Insights
 
 - Revenue increased from **$377.02B (2008)** to **$713.16B (2025)**, representing approximately **89% growth**, while store count increased by only about **38%**. This suggests revenue growth was driven more by higher store productivity than rapid expansion.
 
@@ -213,7 +207,7 @@ The dashboard includes the following business metrics:
 
 ---
 
-# 📁 Data Sources
+# Data Sources
 
 ### Financial Data
 
@@ -229,7 +223,7 @@ The dashboard includes the following business metrics:
 
 ---
 
-# ▶️ Getting Started
+# Getting Started
 
 Clone the repository:
 
@@ -259,7 +253,7 @@ powerbi/Walmart_Financial_Analytics.pbix
 
 ---
 
-# 📝 Notes
+# Notes
 
 - Financial statements were retrieved from the SEC EDGAR Company Facts API.
 - Historical store count and store location data originate from publicly available datasets.
