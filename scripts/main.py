@@ -4,6 +4,7 @@ import sec_api
 import conf
 from cleaning import clean_flow, clean_snapshot
 
+#old code left 
 '''get_info=sec_api.get_data()
 sec_api.save_json(get_info)'''
 '''
