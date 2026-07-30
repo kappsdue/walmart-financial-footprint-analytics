@@ -7,6 +7,7 @@ def get_data():
     print(response.status_code)
     return response.json()
 
+#mannually created data and raw folder
 def save_json(data, filename="data/raw/companyfacts.json"):
     with open(filename, "w") as file:
         json.dump(data, file, indent=4)
