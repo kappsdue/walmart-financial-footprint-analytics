@@ -25,6 +25,7 @@ def run_pipeline():
     print('loading SEC Data')
 
     data1= load_json()
+    # i already had data, hence no need to use getdata and savejson function from sec_api
 
     print('data loaded successfully')
 
