@@ -231,20 +231,6 @@ Clone the repository:
 git clone https://github.com/kappsdue/walmart-financial-footprint-analytics.git
 ```
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the ETL pipeline:
-
-```bash
-python scripts/data_extraction.py
-python scripts/clean_financials.py
-python scripts/merge_data.py
-```
-
 Open the Power BI dashboard:
 
 ```
