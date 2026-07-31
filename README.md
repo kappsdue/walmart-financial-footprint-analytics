@@ -48,7 +48,6 @@ This project investigates several business questions:
 - Did each Walmart store become more productive over time?
 - How did profitability evolve alongside expansion?
 - Which U.S. states have the highest Walmart concentration?
-- How efficiently has Walmart converted growth into shareholder value?
 
 ---
 
@@ -195,7 +194,7 @@ The dashboard includes the following business metrics:
 
 # Key Insights
 
-- Revenue increased from **$377.02B (2008)** to **$713.16B (2025)**, representing approximately **89% growth**, while store count increased by only about **38%**. This suggests revenue growth was driven more by higher store productivity than rapid expansion.
+- Revenue increased from **$377.02B (2008)** to **$713.16B (2026)**, representing approximately **89% growth**, while store count increased by only about **38%**. This suggests revenue growth was driven more by higher store productivity than rapid expansion.
 
 - Revenue generated per store nearly doubled during the analysis period, increasing from **$81.62M** to **$154.40M**.
 
@@ -250,7 +249,7 @@ powerbi/Walmart_Financial_Analytics.pbix
 
 # 👤 Author
 
-**Kaustubh Tatpuje**
+**Kaustubh**
 
 If you found this project useful or interesting, feel free to connect with me or explore my other repositories.
 
