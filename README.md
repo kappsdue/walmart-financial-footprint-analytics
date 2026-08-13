@@ -81,7 +81,6 @@ This project investigates several business questions:
 walmart-financial-footprint-analytics/
 ├── README.md
 ├── LICENSE
-├── .gitignore
 ├── data/
 │   ├── raw/
 │   └── processed/
